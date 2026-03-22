@@ -27,4 +27,4 @@ This is an **Android app** that includes a login screen and a calculator.
 </ol>
 
 **Notes**
-This app was created for learning purposes and practise Android basics, within the PMSc Digital Transformation.
+This app was created within the context of the PMSc Digital Transformation for the course Mobile programming (Kotlin for Android & Swift for IOS).
