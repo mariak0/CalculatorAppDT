@@ -115,7 +115,7 @@ public class Login extends AppCompatActivity {
             errorMessage.append("The password must have length 8-12 characters.\n");
         }
 
-        //message for upercase
+        //message for uppercase
         if (upperCount < 3) {
             errorMessage.append("The password does not contain at least 3 upper-case letters.\n");
         }
