@@ -6,6 +6,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.google.android.material.button.MaterialButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,7 +17,7 @@ public class Login extends AppCompatActivity {
     //declare error
     private TextView ErrorMess;
     //declare button
-    private Button buttonlog;
+    private MaterialButton buttonlog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +34,7 @@ public class Login extends AppCompatActivity {
         ErrorMess = findViewById(R.id.TextError);
 
         //button for loggin
-        buttonlog = findViewById(R.id.loggin);
+        buttonlog = findViewById(R.id.btloggin);
         //onClick
         buttonlog.setOnClickListener(v -> {
             //username string
@@ -42,8 +43,8 @@ public class Login extends AppCompatActivity {
             String password = pswd.getText().toString();
 
             //correct username and password
-            String correctUsername = "team1";
-            String correctPassword = "A9T$gL4bQ!";
+            String correctUsername = "team2";
+            String correctPassword = "M7R!kB2aT$";
 
             //check if username is correct and display error if it is incorrect
             if (!username.equals(correctUsername)) {

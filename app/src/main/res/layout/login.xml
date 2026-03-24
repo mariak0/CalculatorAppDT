@@ -40,14 +40,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextUser" />
 
-    <Button
-        android:id="@+id/loggin"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btloggin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:backgroundTint="#41A607"
         android:text="Log In"
         android:textColor="#FFFFFF"
+        app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,7 +102,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loggin"
+        app:layout_constraintTop_toBottomOf="@+id/btloggin"
         app:layout_constraintVertical_bias="1.0" />
 
 
